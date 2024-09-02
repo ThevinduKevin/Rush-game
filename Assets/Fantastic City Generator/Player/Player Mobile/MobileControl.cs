@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI.Image myImage;
 using UnityEngine.EventSystems;
 
 public class MobileControl : MonoBehaviour, IDragHandler , IPointerUpHandler, IPointerDownHandler
