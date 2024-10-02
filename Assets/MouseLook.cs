@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
 
-    public float mouseSensitivity = 100f
+    public float mouseSensitivity = 100f;
     public Transform playerBody;
     float xRotation = 0f;
     // Start is called before the first frame update
